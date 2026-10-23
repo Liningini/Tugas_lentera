@@ -25,7 +25,12 @@ const timeline = [
 ]
 
 export default function App() {
-  const [kartuTerpilih, setKartuTerpilih] = useState(null);
+  const [kartuTerpilih, setKartuTerpilih] = useState<{
+  id: string
+  title: string
+  description: string
+  image: string
+} | null>(null)
   const [doneAnim1, setDoneAnim1] = useState(false);
   return (
     <div className="bg-bali-sand w-full h-[380vh] z-0">
