@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/jejak-budaya-digital/'
+  base: '/lentera/'
 })
