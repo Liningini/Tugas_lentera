@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+     --color-bali-green: #263D32;
+     --color-bali-gold: #C6A56B;
+     --color-bali-sand: #F3EBDD;
+     --color-bali-sand-dark: #A95C42;
+     --color-bali-brown: #4D2A00;
+}
